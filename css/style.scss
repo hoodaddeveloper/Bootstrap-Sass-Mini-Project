@@ -1,0 +1,39 @@
+// Custom Variables
+$dark: #1b2c45;
+$primary: #2c95ff;
+$secondary: #b6b6b6;
+$line-height: 1px;
+
+// Importing Bootstrap & Material Icons
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../node_modules/material-icons/iconfont/material-icons.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $dark;
+}
+
+i.bi-tropical-storm {
+  font-size: 40px;
+}
+
+li.nav-item > a:hover {
+  color: lighten($secondary, 20) !important;
+}
+
+nav {
+  padding: 0 !important;
+}
+
+.btn.btn-outline-primary.rounded-0:hover {
+  color: white;
+}
+
+.products {
+  i {
+    padding: 10px 15px;
+    font-size: 30px !important;
+  }
+}
